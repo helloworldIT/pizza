@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel="shortcut icon" href="assest/images/pizza.png" type="image/x-icon">
+    <link rel="stylesheet" href="assest/css/style.css">
+    <link rel="stylesheet" href="assest/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Amatic+SC"/>
+</head>
+<body>
+    <div id="main">
+        <!-- Begin header -->
+
+        <!--navigation -->
+        <div class="nav">
+            <ul class="clearfix">
+                <li><a href="#main">home</a></li>
+                <li><a href="#menu">menu</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+        
+        <div id="header">
+            <!-- middle content -->
+            <div class="middle-content white-text">
+                <p class="header">thin<br>crust pizza</p>
+                <span class="menu-btn">let me see the menu</span>
+            </div>
+
+            <div class="opening-time white-text">
+                <p>Open from 10am to 12pm</p>
+            </div>
+        </div>
+        <!-- End header -->
+
+        <!-- Begin content -->
+        <div id="content" class="s-plr-16">
+            <!-- Begin menu -->
+            <div class="white-text center-content" id="menu">
+                <h1 class="jumbo center" style="margin-bottom: 64px;">The menu</h1>
+                <ul class="food-types clearfix">
+                    <li class="active">pizza</li>
+                    <li>salad</li>
+                    <li>starter</li>
+                </ul>
+
+                <div class="food-items font-size-36">
+                    <h1 class = "clearfix">
+                        <b>Margherita</b>
+                        <span>$12.50</span>
+                    </h1>
+                    <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                    <hr>
+
+                    <h1 class = "clearfix">
+                        <b>Formaggio</b>
+                        <span>$15.50</span>
+                    </h1>
+                    <p>Four cheeses mozzarella, parmesan, pecorino, jarlsberg</p>
+                    <hr>
+
+                    <h1 class = "clearfix">
+                        <b>Chicken</b>
+                        <span>$17.00</span>
+                    </h1>
+                    <p>Fresh tomatoes, mozzarella, chicken, onions</p>
+                    <hr>
+
+                    <h1 class = "clearfix">
+                        <b>Pineapple'o'clock</b>
+                        <span>$16.50</span>
+                    </h1>
+                    <p>Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</p>
+                    <hr>
+
+                    <h1 class = "clearfix">
+                        <b>Meat Town </b>
+                        <span class="note white-text" style="background-color: #f44336;">Hot!</span>
+                        <span>$20.00</span>
+                    </h1>
+                    <p>Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+                    <hr>
+
+                    <h1 class = "clearfix">
+                        <b>Parma</b>s
+                        <span class="note" style="background-color: #9E9E9E;">New</span>
+                        <span>$21.50</span>
+                    </h1>
+                    <p>Fresh tomatoes, mozzarella, parma, bacon, fresh arugulas</p>
+                </div>
+            </div>
+            <!-- End menu -->
+        </div>
+        <!-- End content -->
+
+        <!-- About -->
+        <div class="white-text clearfix s-plr-16" id="about">
+            <div class="center-content">
+                <h1 class="jumbo center">about</h1>
+                <p>
+                    The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div class="chef-info clearfix">
+                    <p>
+                        <b>The Chef?</b> Mr. Italiano himself
+                        <img src="assest/images/chef.jpg" alt="Mr. Italiano" class="chef-image">
+                    </p>
+                    <p>We are proud of our interiors.</p>
+                </div>
+                <img src="assest/images/onepage_restaurant.jpg" alt="Restaurant" style="width: 100%;">
+
+                <h2>Opening hours</h2>
+
+                <div class="two-column">
+                    <p>Mon & Tue CLOSED</p>
+                    <p>Wednesday 10.00 - 24.00</p>
+                    <p>Thursday 10:00 - 24:00</p>
+                </div>
+
+                <div class="two-column">
+                    <p>Friday 10:00 - 12:00</p>
+                    <p>Saturday 10:00 - 23:00</p>
+                    <p>Sunday Closed</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="map">
+            <img src="assest/images/map.jpg" alt="map" style="filter: grayscale(75%); width: 100%;">
+        </div>
+
+        <div class="white-text s-plr-16" id="contact">
+            <div class="center-content">
+                <h1 class="center jumbo">contact</h1>
+                <p>Find us at some address at some place or call us at 05050515-122330</p>
+                <p> <span style="background-color:#000; padding: 4px;">Fly!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+                <p class="remind"><b>Reserve</b> a table, ask for today's special or just send us a message:</p>
+                <form action="">
+                    <input type="text" name="name" id="input-name" required placeholder="Name">
+                    <input type="number" name="quantities" id="quantities" required placeholder="How many people">
+                    <input type="datetime-local" name="datetime" id="datetime" value="2022-08-02T19:30">
+                    <input type="text" name="message" id="input-name" required placeholder="Message\Special requirements">
+                    <input type="submit" value="SEND MESSAGE" class="send-button">
+                </form>
+            </div>
+        </div>
+
+        <div id="footer">
+            <p class="white-text center">Power by <a href="#">W3.css</a></p>
+
+        </div>
+
+    </div>
+</body>
+</html>
